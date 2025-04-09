@@ -3,7 +3,7 @@
 ### Group #19 - Angie Fakih, Jeneen Jadallah, Afrah Mohamed
 
 ## Important Notes for Team
-- *** Ensure you are working on the task assigned to you. Each task is linked to an issue in the Issues tab in GitHub and has a corresponding branch. ***
+- *** Ensure you are working on the task assigned to you. Each task is linked to an issue in the 'Issues' tab and has a corresponding branch. ***
 - *** Before starting any work, please ensure you're in the correct branch related to your task. You can switch to your assigned branch using the following command: 'git checkout <branch-name>' ***
 
 ## Project Overview 
