@@ -8,14 +8,11 @@ Our group project is a Meme Generator that pulls random quotes/jokes from an API
 ## Tasks & Roles 
 We've split the project into three major tasks, and each group member is working on one of them: 
 
-1. API Fetcher (Afrah)
-Write code to fetch random jokes/quotes from an API. Handle errors and ensure the text returned is clean and ready for use in the meme.
+1. API Fetcher (Afrah): Write code to fetch random jokes/quotes from an API. Handle errors and ensure the text returned is clean and ready for use in the meme.
 
-2. Image Editor (Teammate 2, please self-assign)
-Use the Pillow library to add the fetched quote/joke onto a meme template. Handle resizing, positioning, and saving the generated meme.
+2. Image Editor (Teammate 2, please self-assign): Use the Pillow library to add the fetched quote/joke onto a meme template. Handle resizing, positioning, and saving the generated meme.
 
-3. GUI (Teammate 3 please self-assign)
-Build a user interface (GUI) where users can select a meme template, input a quote, and generate the meme. The interface will allow for seamless meme creation.
+3. GUI (Teammate 3 please self-assign): Build a user interface (GUI) where users can select a meme template, input a quote, and generate the meme. The interface will allow for seamless meme creation.
 
 ## Branching & Workflow
 We have structured our work with separate branchs for each task. This allows each team member to work independently on their part without interfering with others' progress. 
