@@ -2,6 +2,10 @@
 ### CIS 298 - Winter 2025
 ### Group #19 - Angie Fakih, Jeneen Jadallah, Afrah Mohamed
 
+## Important Notes for Team
+- *** Ensure you are working on the task assigned to you. Each task is linked to an issue in the Issues tab in GitHub and has a corresponding branch. ***
+- *** Before starting any work, please ensure you're in the correct branch related to your task. You can switch to your assigned branch using the following command: 'git checkout <branch-name>' ***
+
 ## Project Overview 
 Our group project is a Meme Generator that pulls random quotes/jokes from an API and places them onto meme templates. We are using popular Python libraries like Pillow, requests, and Tkinter/Flask to create a fun and interactive program. Users will be able to select templates, generate memes, and share them. 
 
