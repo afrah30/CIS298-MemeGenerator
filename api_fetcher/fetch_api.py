@@ -14,12 +14,12 @@ def get_random_joke():
     }
 
     try:
-        print("Sending request to Humor API...")  # the debugging print
+        print("Sending request to Humor API...")  # debugging print 1
         response = requests.get(url, params=params)
 
         # check if the response status is sucessful
         response.raise_for_status()
-        print(f"Received response with status code: {response.status_code}")  # Debugging print
+        print(f"Received response with status code: {response.status_code}")  # debugging print 2
 
         data = response.json()
 
@@ -28,7 +28,7 @@ def get_random_joke():
 
         # return the joke or a fallback message
         joke = data.get("joke", "No joke found.")
-        print(f"Fetched Joke: {joke}")  # Debugging print
+        print(f"Fetched Joke: {joke}")  # debugging print 3
         return joke
     except requests.RequestException as e:
         print("Error fetching joke:", e)
