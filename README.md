@@ -31,7 +31,10 @@ We have structured our work with separate branchs for each task. This allows eac
 - We created three separate branches for each team member to work on their role/part of the project.
 - We separated the tasks into GitHub issues and assigned each teammate to their specific task. Each teammate will focus on their respective modeule while tracking progress through issues.
 
-2. ***Please write any other commits with a description here anytime anything is pushed into repo...***
+2. Added API functionality (initial version) 
+- Implemented the API functionality in its corresponding folder and then tested it in the main.py file.
+- Successful implementation was proven with debugging and fallback messages in case of errors.
+- Joke successfully printed in the console after being fetched from online API.
 
 ## Libraries Used 
 - Pillow: For image manipulation and meme generation
