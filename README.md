@@ -2,6 +2,10 @@
 ### CIS 298 - Winter 2025
 ### Group #19 - Angie Fakih, Jeneen Jadallah, Afrah Mohamed
 
+## Important Notes for Team
+- *** Ensure you are working on the task assigned to you. Each task is linked to an issue in the 'Issues' tab and has a corresponding branch. ***
+- *** Before starting any work, please ensure you're in the correct branch related to your task. You can switch to your assigned branch using the following command: 'git checkout branch-name' ***
+
 ## Project Overview 
 Our group project is a Meme Generator that pulls random quotes/jokes from an API and places them onto meme templates. We are using popular Python libraries like Pillow, requests, and Tkinter/Flask to create a fun and interactive program. Users will be able to select templates, generate memes, and share them. 
 
@@ -12,14 +16,14 @@ We've split the project into three major tasks, and each group member is working
 
 2. Image Editor (Teammate 2, please self-assign): Use the Pillow library to add the fetched quote/joke onto a meme template. Handle resizing, positioning, and saving the generated meme.
 
-3. GUI (Teammate 3, please self-assign): Build a user interface (GUI) where users can select a meme template, input a quote, and generate the meme. The interface will allow for seamless meme creation.
+3. GUI (Angie): Build a user interface (GUI) where users can select a meme template, input a quote, and generate the meme. The interface will allow for seamless meme creation.
 
 ## Branching & Workflow
 We have structured our work with separate branchs for each task. This allows each team member to work independently on their part without interfering with others' progress. 
 - Main Branch: Holds the initial project and intergrates everything at the end.
 - API Fetcher Branch: Afrah will work on this branch
 - Image Editor Branch: Teammate 2 (please self assign) will work on this branch.
-- GUI Branch: Teammate 3 (please self assign) will work on this branch.
+- GUI Branch: Angie will work on this branch.
 
 ## Commit Breakdown 
 1. Initial Commit
@@ -27,7 +31,10 @@ We have structured our work with separate branchs for each task. This allows eac
 - We created three separate branches for each team member to work on their role/part of the project.
 - We separated the tasks into GitHub issues and assigned each teammate to their specific task. Each teammate will focus on their respective modeule while tracking progress through issues.
 
-2. ***Please write any other commits with a description here anytime anything is pushed into repo...***
+2. Added API functionality (initial version) 
+- Implemented the API functionality in its corresponding folder and then tested it in the main.py file.
+- Successful implementation was proven with debugging and fallback messages in case of errors.
+- Joke successfully printed in the console after being fetched from online API.
 
 ## Libraries Used 
 - Pillow: For image manipulation and meme generation
