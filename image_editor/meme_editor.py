@@ -39,7 +39,7 @@ def wrap_text(
 def create_meme(
     template_path: str,
     text: str,
-    font_path: str = "fonts/impact.ttf",
+    font_path: str = os.path.join(os.path.dirname(__file__), "..", "fonts", "impact.ttf"),
     font_size: int = 48,
     text_color: str = "white",
     stroke_color: str = "black",
@@ -72,6 +72,9 @@ def create_meme(
 
         # otherwise, shrink font and re-wrap
         font_size -= 2
+        if not os.path.exists(font_path):
+            raise FileNotFoundError(f"Font not found at: {font_path}")
+
         font = ImageFont.truetype(font_path, font_size)
         wrapped = wrap_text(text, font, draw, max_text_width)
 
