@@ -2,28 +2,24 @@
 ### CIS 298 - Winter 2025
 ### Group #19 - Angie Fakih, Jeneen Jadallah, Afrah Mohamed
 
-## Important Notes for Team
-- *** Ensure you are working on the task assigned to you. Each task is linked to an issue in the 'Issues' tab and has a corresponding branch. ***
-- *** Before starting any work, please ensure you're in the correct branch related to your task. You can switch to your assigned branch using the following command: 'git checkout branch-name' ***
-
 ## Project Overview 
-Our group project is a Meme Generator that pulls random quotes/jokes from an API and places them onto meme templates. We are using popular Python libraries like Pillow, requests, and Tkinter/Flask to create a fun and interactive program. Users will be able to select templates, generate memes, and share them. 
+Our group project is a Meme Generator that pulls random quotes/jokes from an API and places them onto meme templates. We are using popular Python libraries like Pillow, requests, and Tkinter to create a fun and interactive program. Users will be able to select templates, generate memes, and share them. 
 
 ## Tasks & Roles 
 We've split the project into three major tasks, and each group member is working on one of them: 
 
 1. API Fetcher (Afrah): Write code to fetch random jokes/quotes from an API. Handle errors and ensure the text returned is clean and ready for use in the meme.
 
-2. Image Editor (Teammate 2, please self-assign): Use the Pillow library to add the fetched quote/joke onto a meme template. Handle resizing, positioning, and saving the generated meme.
+2. Image Editor (Jeneen): Use the Pillow library to add the fetched quote/joke onto a meme template. Handle resizing, positioning, and saving the generated meme.
 
 3. GUI (Angie): Build a user interface (GUI) where users can select a meme template, input a quote, and generate the meme. The interface will allow for seamless meme creation.
 
 ## Branching & Workflow
 We have structured our work with separate branchs for each task. This allows each team member to work independently on their part without interfering with others' progress. 
-- Main Branch: Holds the initial project and intergrates everything at the end.
-- API Fetcher Branch: Afrah will work on this branch
-- Image Editor Branch: Teammate 2 (please self assign) will work on this branch.
-- GUI Branch: Angie will work on this branch.
+- Main Branch: Holds the final project and working meme generator. This is where all pull requests were merged.
+- API Fetcher Branch: Afrah worked on this branch.
+- Image Editor Branch: Jeneen worked on this branch.
+- GUI Branch: Angie worked on this branch.
 
 ## Commit Breakdown 
 1. Initial Commit
@@ -39,7 +35,7 @@ We have structured our work with separate branchs for each task. This allows eac
 ## Libraries Used 
 - Pillow: For image manipulation and meme generation
 - requests: To fetch random quotes/jokes from the API.
-- Tkinter/Flask: For building the GUI.
+- Tkinter: For building the GUI.
 - random, os, io: For basic functionality like randomizing meme captions and handling files.
 
 ## Next Steps 
