@@ -40,25 +40,15 @@ We have structured our work with separate branchs for each task. This allows eac
 | 13       | Final Merge After API Reset                          | Resolved final integration conflicts and reset API logic                                   |               |
 | 14       | GroupEval Forms Added                                | Added completed `GroupEval.docx` for each team member                                      |               |
 
-
-
-
-## Commit Breakdown 
-1. Initial Commit
-- Description: Set up the basic project structure, including the main.py file, requirements.txt, and the folders for each task (API fetcher, image editor, and GUI).
-- We created three separate branches for each team member to work on their role/part of the project.
-- We separated the tasks into GitHub issues and assigned each teammate to their specific task. Each teammate will focus on their respective modeule while tracking progress through issues.
-
-2. Added API functionality (initial version) 
-- Implemented the API functionality in its corresponding folder and then tested it in the main.py file.
-- Successful implementation was proven with debugging and fallback messages in case of errors.
-- Joke successfully printed in the console after being fetched from online API.
-
 ## Libraries Used 
-- Pillow: For image manipulation and meme generation
-- requests: To fetch random quotes/jokes from the API.
-- Tkinter: For building the GUI.
-- random, os, io: For basic functionality like randomizing meme captions and handling files.
 
-## Next Steps 
-***We will continue working on our assigned tasks, commit our progress regularly, and merge everything into the main branch. We'll be updating the README as we go to reflect our progess.***
+| Library         | Purpose                                                                 |
+|----------------|-------------------------------------------------------------------------|
+| `requests`      | To fetch jokes or data from external APIs                               |
+| `Pillow (PIL)`  | For image manipulation and rendering text onto images                   |
+| `tkinter`       | For building the graphical user interface (GUI)                         |
+| `random`        | For randomizing meme templates                                          |
+| `os`            | For handling file paths and directory management                        |
+| `io`            | For handling in-memory files (e.g., saving images without writing temp) |
+
+
