@@ -3,7 +3,7 @@
 ### Group #19 - Angie Fakih, Jeneen Jadallah, Afrah Mohamed
 
 ## Project Overview 
-Our group project is a Meme Generator that pulls random quotes/jokes from an API and places them onto meme templates. We are using popular Python libraries like Pillow, requests, and Tkinter to create a fun and interactive program. Users will be able to select templates, generate memes, and share them. 
+Our group project is a Meme Generator called Memeify that pulls random quotes/jokes from an API and places them onto meme templates. We are using popular Python libraries like Pillow, requests, and Tkinter to create a fun and interactive program. Users will be able to select templates, generate memes, and share them. 
 
 ## Tasks & Roles 
 We've split the project into three major tasks, and each group member is working on one of them: 
