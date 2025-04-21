@@ -21,24 +21,26 @@ We have structured our work with separate branchs for each task. This allows eac
 - Image Editor Branch: Jeneen worked on this branch.
 - GUI Branch: Angie worked on this branch.
 
-## 📦 Project Commit Log
+## Project Commit Log
 
-| Commit # | Title                                               | Description                                                                                 | Who           |
-|----------|-----------------------------------------------------|---------------------------------------------------------------------------------------------|---------------|
-| 1        | Initial Commit                                       | Project creation, selected topic, and got approval from professor                          |               | Afrah
-| 2        | Created `README.md`                                  | Set up basic structure and project description                                              |               | Afrah
-| 3        | Initial Project Structure                            | Created empty files: `fetch_api.py`, `image_editor.py`, `gui.py`                           |               | Angie
-| 4        | Updated `README.md`                                  | Added project overview and initial planning notes                                           |               | Jeneen
-| 5        | Added API Functionality - Initial Commit             | Implemented basic API call logic in `fetch_api.py`                                         |               |Afrah
-| 6        | Merged API Fetcher Pull Request                      | Merged PR #4 from `afrah30/api-fetcher` into main                                           |               | Afrah
-| 7        | Updated `README.md` Again                            | Logged commit progress and documented API integration                                       |               | Angie, Jeneen, Afrah
-| 8        | Added Image Editor Functionalities                   | Integrated image manipulation functions into `image_editor.py`                             |               | Jeneen
-| 9        | Meme Generator GUI Functional                        | Enabled template selection, joke fetching, and font rendering in GUI                       |               | Angie
-| 10       | Refined UI + Dark Mode Toggle                        | Improved interface, added theme toggle, and allowed meme saving                            |               | Angie
-| 11       | Random Meme Generator Added                          | Created random meme generator pulling from `templates/` folder                             |               | Angie
-| 12       | Merged GUI Interface Branch                          | Merged `gui-interface` branch into `main`                                                  |               | Angie
-| 13       | Final Merge After API Reset                          | Resolved final integration conflicts and reset API logic                                   |               | Afrah
-| 14       | GroupEval Forms Added                                | Added completed `GroupEval.docx` for each team member                                      |               | Angie, Jeneen, Afrah
+| Commit # | Title                                               | Description                                                                                 | Who                    |
+|----------|-----------------------------------------------------|---------------------------------------------------------------------------------------------|------------------------|
+| 1        | Initial Commit                                       | Project creation, selected topic, and got approval from professor                          | Afrah                  |
+| 2        | Created `README.md`                                  | Set up basic structure and project description                                              | Afrah                  |
+| 3        | Initial Project Structure                            | Created empty files: `fetch_api.py`, `image_editor.py`, `gui.py`                           | Afrah                  |
+| 4        | Updated `README.md`                                  | Added project overview and initial planning notes                                           | Jeneen, Angie                 |
+| 5        | Added API Functionality - Initial Commit             | Implemented basic API call logic in `fetch_api.py`                                         | Afrah                  |
+| 6        | Merged API Fetcher Pull Request                      | Merged PR #4 from `afrah30/api-fetcher` into main                                           | Afrah                  |
+| 7        | Updated `README.md` Again                            | Logged commit progress and documented API integration                                       | Angie, Jeneen, Afrah   |
+| 8        | Developed Image Editor Module                        | Implemented `wrap_text` and `create_meme` functions in `image_editor.py` using PIL         | Jeneen                 |
+| 9        | Added Image Editor Functionalities                   | Integrated meme rendering with font, alignment, resizing, and color options                | Jeneen                 |
+| 10       | Meme Generator GUI Functional                        | Enabled template selection, joke fetching, and font rendering in GUI                       | Angie                  |
+| 11       | Refined UI + Dark Mode Toggle                        | Improved interface, added theme toggle, and allowed meme saving                            | Angie                  |
+| 12       | Random Meme Generator Added                          | Created random meme generator pulling from `templates/` folder                             | Angie                  |
+| 13       | Merged GUI Interface Branch                          | Merged `gui-interface` branch into `main`                                                  | Angie                  |
+| 14        | Refined Image Editor                                 | Improved text wrapping logic, adjusted font scaling, added layout fallbacks                | Jeneen                 |
+| 15       | Final Merge After API Reset                          | Resolved final integration conflicts and reset API logic                                   | Afrah                  |
+| 16       | GroupEval Forms Added                                | Added completed `GroupEval.docx` for each team member                                      | Angie, Jeneen, Afrah   |
 
 ## Libraries Used 
 
