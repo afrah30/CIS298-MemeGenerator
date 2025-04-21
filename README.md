@@ -27,8 +27,8 @@ We have structured our work with separate branchs for each task. This allows eac
 |----------|-----------------------------------------------------|---------------------------------------------------------------------------------------------|------------------------|
 | 1        | Initial Commit                                       | Project creation, selected topic, and got approval from professor                          | Afrah                  |
 | 2        | Created `README.md`                                  | Set up basic structure and project description                                              | Afrah                  |
-| 3        | Initial Project Structure                            | Created empty files: `fetch_api.py`, `image_editor.py`, `gui.py`                           | Afrah                  |
-| 4        | Updated `README.md`                                  | Added project overview and initial planning notes                                           | Jeneen, Angie                 |
+| 3        | Initial Project Structure                            | Created empty files: `fetch_api.py`, `image_editor.py`, `gui.py`                           | Angie, Jeneen, Afrah                |
+| 4        | Updated `README.md`                                  | Added project overview and initial planning notes                                           | Angie, Jeneen, Afrah                |
 | 5        | Added API Functionality - Initial Commit             | Implemented basic API call logic in `fetch_api.py`                                         | Afrah                  |
 | 6        | Merged API Fetcher Pull Request                      | Merged PR #4 from `afrah30/api-fetcher` into main                                           | Afrah                  |
 | 7        | Updated `README.md` Again                            | Logged commit progress and documented API integration                                       | Angie, Jeneen, Afrah   |
@@ -37,7 +37,7 @@ We have structured our work with separate branchs for each task. This allows eac
 | 10       | Meme Generator GUI Functional                        | Enabled template selection, joke fetching, and font rendering in GUI                       | Angie                  |
 | 11       | Refined UI + Dark Mode Toggle                        | Improved interface, added theme toggle, and allowed meme saving                            | Angie                  |
 | 12       | Random Meme Generator Added                          | Created random meme generator pulling from `templates/` folder                             | Angie                  |
-| 13       | Merged GUI Interface Branch                          | Merged `gui-interface` branch into `main`                                                  | Angie                  |
+| 13       | Merged GUI Interface Branch                          | Merged `gui-interface` branch into `main`                                                  | Afrah                  |
 | 14        | Refined Image Editor                                 | Improved text wrapping logic, adjusted font scaling, added layout fallbacks                | Jeneen                 |
 | 15       | Final Merge After API Reset                          | Resolved final integration conflicts and reset API logic                                   | Afrah                  |
 | 16       | GroupEval Forms Added                                | Added completed `GroupEval.docx` for each team member                                      | Angie, Jeneen, Afrah   |
